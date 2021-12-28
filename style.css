@@ -1,3 +1,7 @@
+/* dark 
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+*/
 *{
     margin: 0;
     list-style: none;
@@ -40,7 +44,7 @@ nav li{
 }
 .main-heading{
     
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(252, 39, 121, 0.2), 0 6px 20px 0 rgba(252, 39, 121, 0.19);
     text-align: center;
     margin: 1em auto;
     width: 70%;
@@ -89,7 +93,7 @@ footer{
 .side-card{
     padding: 1em;
     margin-top: 1em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(252, 39, 121, 0.2), 0 6px 20px 0 rgba(252, 39, 121, 0.19);
     
 }
 .cards{
@@ -106,7 +110,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 2em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(252, 39, 121, 0.2), 0 6px 20px 0 rgba(252, 39, 121, 0.19);
 }
 .card .img {
     width: 80%;
@@ -229,7 +233,7 @@ footer{
 footer {
     background-color: rgb(252, 39, 121);
 }
-h5{
+footer h5{
     
     color: white;
 }
@@ -245,7 +249,7 @@ h5{
     background: none;
     padding: 1em;
 }
-.foot-card h4{
+footer .foot-card h4{
     color: white;
     font-size: 1.5em;
 }
@@ -265,6 +269,8 @@ padding: 1em;
 .foot h5{
     padding-top: 0.5em;
     border-top: 1px solid white;
+    font-size: 1em;
+    color: white;
 }
 .foot-card .sub{
 padding: 0em 1em;
@@ -298,4 +304,16 @@ p{
 
 html{
     scroll-behavior: smooth;
+}
+section{
+    padding: 1em;
+    margin: 1em 1em;
+    box-shadow: 0 4px 8px 0 rgba(252, 39, 121, 0.2), 0 6px 20px 0 rgba(252, 39, 121, 0.19);
+}
+section h4 , h5{
+    color: rgb(252, 39, 121);
+
+}
+section h4{
+    font-size: 1.5em;
 }
