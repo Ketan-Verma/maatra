@@ -35,6 +35,7 @@ nav li{
     margin-right: auto;
     height: 16em;
     width: 70%;
+    border: solid rgba(128, 128, 128, 0.041);
 
 }
 .main-heading{
@@ -270,4 +271,31 @@ padding: 0em 1em;
 }
 p{
     text-transform:capitalize;
+}
+#sub{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: royalblue; */
+}
+.sub-child {
+    margin: 1em;
+    min-width: 100px;
+}
+.sub-child h5{
+    font-size: 1em;
+}
+@media screen and (max-width:600px) {
+      #sub{
+            flex-direction: column;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+        footer{
+            text-align: center;
+        }
+}
+
+html{
+    scroll-behavior: smooth;
 }
